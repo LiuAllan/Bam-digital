@@ -1,0 +1,44 @@
+$pale-red: rgb(240, 72, 104);
+$heading1-size: 2.5rem;
+$heading1-weight: 800;
+
+.our-mission {
+	background-color: #000;
+	height: 100vh;
+	padding: 6rem 4rem 0;
+}
+
+.our-mission-head {
+	h6 {
+		text-transform: uppercase;
+		color: $pale-red;
+	}
+	h1 {
+		font-size: $heading1-size;
+		font-weight: $heading1-weight;
+		color: #fff;
+
+		display: block;
+		height: 100px;
+		width: 50%;
+		/*background-color: blue;*/
+	}
+}
+
+.our-mission-content {
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	img {
+		width: 50%;
+		height: auto;
+		margin-top: 6rem;
+	}
+
+	p {
+		color: #fff;
+		padding-left: 4rem;
+	}
+}

@@ -1,0 +1,80 @@
+$white: #fff;
+$pale-red: rgb(240, 72, 104);
+$heading1-size: 2.5rem;
+$heading1-weight: 800;
+
+.header * {
+	z-index: 10;
+}
+
+.header {
+	background-color: black;
+	height: 100vh;
+	padding: 6rem 4rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+	position: relative;
+}
+
+.header-text {
+	h1 {
+		color: $white;
+		font-size: $heading1-size;
+		font-weight: $heading1-weight;
+		margin-right: 10rem;
+	}
+}
+
+.explore-design {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	h6 {
+		color: $pale-red;
+		text-transform: uppercase;
+		transform: rotate(-90deg);
+		transform-origin: left bottom;
+
+		position: absolute;
+		left: 0.5rem;
+	}
+
+	.vertical-line {
+		height: 7rem;
+		width: 0.1rem;
+		background-color: $pale-red;
+		margin-top: 2rem;
+		
+		position: absolute;
+		left: 0;
+
+	}
+}
+
+.parallax {
+  background:     
+
+	linear-gradient(180deg, rgba(0,0,0,0.8715861344537815) 8%, rgba(0,0,0,0.7231267507002801) 35%, rgba(3,3,3,1) 66%),
+	url("../images/vancouver-aerial-view.51645147.jpg");
+
+/*	background-image: url("../images/vancouver-aerial-view.51645147.jpg");
+	opacity: 0.2;*/
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;	
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
