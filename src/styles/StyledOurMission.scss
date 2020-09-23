@@ -4,7 +4,6 @@ $heading1-weight: 800;
 
 .our-mission {
 	background-color: #000;
-	height: 100vh;
 	padding: 6rem 4rem 0;
 }
 
@@ -34,11 +33,14 @@ $heading1-weight: 800;
 	img {
 		width: 50%;
 		height: auto;
-		margin-top: 6rem;
+		margin-top: 9rem;
+		margin-bottom: -12rem; // This moves the image Outside of the div container
 	}
 
 	p {
 		color: #fff;
 		padding-left: 4rem;
+		font-size: 0.8rem;
+		line-height: 1.5rem;
 	}
 }

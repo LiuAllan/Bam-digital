@@ -1,0 +1,21 @@
+$pale-red: rgb(240, 72, 104);
+$heading1-size: 2.5rem;
+$heading1-weight: 800;
+
+.our-services {
+	margin-top: 15rem;
+	padding: 6rem 4rem 0;
+}
+
+.our-services-head {
+	h6 {
+		text-transform: uppercase;
+		color: $pale-red;
+	}
+	h1 {
+		font-size: $heading1-size;
+		font-weight: $heading1-weight;
+		color: #000;
+		margin-bottom: 3rem;
+	}
+}
