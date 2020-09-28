@@ -1,6 +1,5 @@
-$pale-red: rgb(240, 72, 104);
-$heading1-size: 2.5rem;
-$heading1-weight: 800;
+@import './colours';
+@import './fonts';
 
 .our-services {
 	margin-top: 15rem;
@@ -9,13 +8,10 @@ $heading1-weight: 800;
 
 .our-services-head {
 	h6 {
-		text-transform: uppercase;
-		color: $pale-red;
+		@include heading6;
 	}
 	h1 {
-		font-size: $heading1-size;
-		font-weight: $heading1-weight;
-		color: #000;
-		margin-bottom: 3rem;
+		@include heading1;
+		color: $black;
 	}
 }

@@ -1,3 +1,5 @@
+@import './colours';
+
 .card-container {
 	/*background-color: #333;*/
 	max-width: 100/3%;
@@ -13,7 +15,7 @@
 		opacity: 0.6;
 		font-weight: 800;
 		font-size: 2.5rem;
-		color: transparent;
+		color: $transparent;
 	}
 	.pitch-heading {
 		font-weight: 800;

@@ -1,25 +1,21 @@
-$pale-red: rgb(240, 72, 104);
-$heading1-size: 2.5rem;
-$heading1-weight: 800;
+@import './colours';
+@import './fonts';
+
 
 .our-approach {
 	padding: 6rem 4rem 0;
-	background-color: #000;
+	background-color: $black;
 
 	.card-container {
-		color: #fff;
+		color: $white;
 	}
 }
 
 .our-approach-head {
 	h6 {
-		text-transform: uppercase;
-		color: $pale-red;
+		@include heading6;
 	}
 	h1 {
-		font-size: $heading1-size;
-		font-weight: $heading1-weight;
-		color: #fff;
-		margin-bottom: 3rem;
+		@include heading1;
 	}
 }

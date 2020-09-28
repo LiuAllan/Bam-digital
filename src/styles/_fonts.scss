@@ -1,0 +1,16 @@
+@import './colours';
+
+$heading1-size: 2.5rem;
+$heading1-weight: 800;
+
+@mixin heading6 {
+	text-transform: uppercase;
+	color: $pale-red;
+}
+
+@mixin heading1 {
+	font-size: $heading1-size;
+	font-weight: $heading1-weight;
+	color: $white;
+	margin-bottom: 3rem;
+}

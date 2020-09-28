@@ -1,6 +1,5 @@
-$pale-red: rgb(240, 72, 104);
-$heading1-size: 2.5rem;
-$heading1-weight: 800;
+@import './colours';
+@import './fonts';
 
 .our-mission {
 	background-color: #000;
@@ -9,23 +8,19 @@ $heading1-weight: 800;
 
 .our-mission-head {
 	h6 {
-		text-transform: uppercase;
-		color: $pale-red;
+		@include heading6;
 	}
 	h1 {
-		font-size: $heading1-size;
-		font-weight: $heading1-weight;
-		color: #fff;
+		@include heading1;
 
 		display: block;
 		height: 100px;
 		width: 50%;
-		/*background-color: blue;*/
+		margin-bottom: 0;
 	}
 }
 
 .our-mission-content {
-	/*background-color: red;*/
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -38,9 +33,9 @@ $heading1-weight: 800;
 	}
 
 	p {
-		color: #fff;
+		color: $white;
 		padding-left: 4rem;
-		font-size: 0.8rem;
+		/*font-size: 0.8rem;*/
 		line-height: 1.5rem;
 	}
 }

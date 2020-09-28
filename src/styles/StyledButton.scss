@@ -1,9 +1,11 @@
+@import './colours';
+
 .button-container {
 	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 	outline: none;
 	border: none;
 	border-radius: 25px;
-	color: #fff;
+	color: $white;
 	transition-duration: 0.5s;
 }
 

@@ -1,7 +1,5 @@
-$white: #fff;
-$pale-red: rgb(240, 72, 104);
-$heading1-size: 2.5rem;
-$heading1-weight: 800;
+@import './colours';
+@import './fonts';
 
 .header * {
 	z-index: 10;

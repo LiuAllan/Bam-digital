@@ -1,7 +1,7 @@
-$white: #fff;
+@import './colours';
 
 .nav-container {
-	background-color: black;
+	background-color: $black;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -16,7 +16,7 @@ $white: #fff;
 }
 
 .nav-items {
-	color: #fff;
+	color: $white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
