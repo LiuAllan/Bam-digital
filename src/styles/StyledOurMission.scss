@@ -4,6 +4,12 @@
 .our-mission {
 	background-color: #000;
 	padding: 6rem 4rem 0;
+
+	// Divider
+	position: relative;
+	background: $black;
+	border-bottom-left-radius: 50% 7%;
+	border-bottom-right-radius: 50% 7%;
 }
 
 .our-mission-head {
