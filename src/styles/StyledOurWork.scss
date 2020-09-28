@@ -1,0 +1,17 @@
+@import './colours';
+@import './fonts';
+
+.our-work {
+	padding: 6rem 4rem 0;
+
+	.our-work-head {
+		h6 {
+			@include heading6;
+		}
+
+		h1 {
+			@include heading1;
+			color: $black;
+		}
+	}
+}

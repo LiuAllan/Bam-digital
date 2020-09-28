@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import OurMission from '../components/OurMission';
 import OurServices from '../components/OurServices';
 import OurApproach from '../components/OurApproach';
+import OurWork from '../components/OurWork';
 
 const landingPage = () => {
 
@@ -20,8 +21,7 @@ const landingPage = () => {
 
 			<OurApproach />
 
-			<section className='our-work'>
-			</section>
+			<OurWork />
 
 			<section className='our-clients'>
 			</section>

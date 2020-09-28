@@ -1,0 +1,28 @@
+@import './fonts';
+
+.row {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.column {
+	flex: 1;
+	padding: 2rem;
+	height: 40vh;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	h1 {
+		@include heading1;
+		text-transform: uppercase;
+	}
+
+	background-size: cover;
+
+}
+
+.column1 {
+	margin-right: 2rem;
+}
