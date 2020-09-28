@@ -8,8 +8,6 @@ interface StoriesProps {
 	backgroundImgColumn2: string,
 };
 
-// backgroundImage: `url(${backgroundImg})`
-
 const StoriesRow: React.FC<StoriesProps> = ({ column1, column2, backgroundImgColumn1, backgroundImgColumn2 }) => {
 	return (
 		<div className='row'>
