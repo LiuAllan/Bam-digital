@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import OurMission from '../components/OurMission';
 import OurServices from '../components/OurServices';
-
+import OurApproach from '../components/OurApproach';
 
 const landingPage = () => {
 
@@ -18,8 +18,7 @@ const landingPage = () => {
 
 			<OurServices />
 
-			<section className='our-approach'>
-			</section>
+			<OurApproach />
 
 			<section className='our-work'>
 			</section>
