@@ -1,0 +1,19 @@
+.button-container {
+	padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+	transition-duration: 0.5s;
+}
+
+.button-container:hover {
+	filter: brightness(0.8);
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+.button-container {}

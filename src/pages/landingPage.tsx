@@ -3,8 +3,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import OurMission from '../components/OurMission';
+import OurServices from '../components/OurServices';
 
-import '../styles/StyledOurServices.scss';
 
 const landingPage = () => {
 
@@ -16,16 +16,7 @@ const landingPage = () => {
 
 			<OurMission />
 
-			<section className='our-services'>
-				<div className='our-services-head'>
-					<h6>our services</h6>
-					<h1>What we do best.</h1>
-				</div>
-
-				<div>
-					Component here
-				</div>
-			</section>
+			<OurServices />
 
 			<section className='our-approach'>
 			</section>
