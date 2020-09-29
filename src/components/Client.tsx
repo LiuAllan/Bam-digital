@@ -1,18 +1,18 @@
 import React from 'react';
 import '../styles/StyledClients.scss';
 // Images
-import anthem from '../images/clients/anthem.png';
-import aoyuan from '../images/clients/aoyuan.png';
-import aquilini from '../images/clients/aquilini.png';
-import beedie from '../images/clients/beedie.png';
-import colliers from '../images/clients/colliers.png';
-import concord from '../images/clients/concord.png';
-import gryphon from '../images/clients/gryphon.png';
-import laconia from '../images/clients/laconia.png';
-import onni from '../images/clients/onni.png';
-import polygon from '../images/clients/polygon.png';
-import realogics from '../images/clients/realogics.png';
-import townline from '../images/clients/townline.png';
+// import anthem from '../images/clients/anthem.png';
+// import aoyuan from '../images/clients/aoyuan.png';
+// import aquilini from '../images/clients/aquilini.png';
+// import beedie from '../images/clients/beedie.png';
+// import colliers from '../images/clients/colliers.png';
+// import concord from '../images/clients/concord.png';
+// import gryphon from '../images/clients/gryphon.png';
+// import laconia from '../images/clients/laconia.png';
+// import onni from '../images/clients/onni.png';
+// import polygon from '../images/clients/polygon.png';
+// import realogics from '../images/clients/realogics.png';
+// import townline from '../images/clients/townline.png';
 
 interface ClientProps {
 	image1: string,
