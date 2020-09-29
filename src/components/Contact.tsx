@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/StyledContact.scss';
+import Socials from './Socials';
 
 const Contact = () => {
 	return (
@@ -41,6 +42,13 @@ const Contact = () => {
 						<input type='text' placeholder='Email address' />
 						<button type='submit'>Subscribe</button>
 					</form>
+				</div>
+			</div>
+
+			<div className='social-terms'>
+				<Socials />
+				<div className='terms'>
+					<p>Bam Digital 2020. Made by Allan Liu. For learning purposes only</p>
 				</div>
 			</div>
 

@@ -2,7 +2,7 @@
 @import './fonts';
 
 .contact {
-	padding: 6rem 4rem 0;
+	padding: 6rem 4rem 1.5rem;
 	display: flex;
 	flex-direction: column;
 	color: $white;
@@ -10,7 +10,7 @@
 	// divider
 	position: relative;
 	background: $black;
-	height: 100vh;
+	height: 100%;
 	border-top-left-radius: 50% 7%;
 	border-top-right-radius: 50% 7%;
 }
@@ -26,7 +26,9 @@
 }
 
 .contact-margin-left {
-	margin-left: 25rem;
+	/*margin-left: 25rem;*/
+	display: flex;
+	justify-content: flex-end;
 }
 
 .contact-info {
@@ -62,7 +64,9 @@
 }
 
 .email-list {
-	margin-top: 5rem;
+	/*margin-top: 5rem;*/
+	margin-bottom: 2rem;
+	margin-left: 4rem;
 	h2 {
 		font-size: $footer-font-size;
 		font-weight: $footer-font-weight-header;
@@ -70,7 +74,7 @@
 	}
 
 	input {
-		width: 60%;
+		width: 20rem;
 		padding: 0.5rem 0.5rem 0.5rem 0rem;
 		outline: none;
 		background-color: $black;
@@ -98,4 +102,19 @@
 		transition: all 0.3s ease;
 	}
 
+}
+
+.social-terms {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	.terms {
+		p {
+			font-size: 0.5rem;
+			color: grey;
+		}
+		
+	}
 }

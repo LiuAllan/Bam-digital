@@ -1,0 +1,17 @@
+@import './colours';
+
+.socials-container {
+	img {
+		border-radius: 42%;
+		padding: 0.3rem;
+	}
+	.fb:hover {
+		background-color: $facebook-blue;
+	}
+	.insta:hover {
+		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	}
+	.linkedin:hover {
+		background-color: $linkedin-blue;
+	}
+}
