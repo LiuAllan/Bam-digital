@@ -25,10 +25,13 @@
 	}
 }
 
+.contact-margin-left {
+	margin-left: 25rem;
+}
+
 .contact-info {
 	display: flex;
 	flex-direction: row;
-	margin-left: 25rem;
 	font-size: $footer-font-size;
 }
 
@@ -58,3 +61,41 @@
 	}
 }
 
+.email-list {
+	margin-top: 5rem;
+	h2 {
+		font-size: $footer-font-size;
+		font-weight: $footer-font-weight-header;
+		margin-bottom: 2rem;
+	}
+
+	input {
+		width: 60%;
+		padding: 0.5rem 0.5rem 0.5rem 0rem;
+		outline: none;
+		background-color: $black;
+		border: none;
+		border-bottom: 1px solid grey;
+		color: $white;
+	}
+
+	input:focus {
+		border-bottom: 1px solid $white;
+		transition: all 0.3s ease;
+	}
+
+	button {
+		padding: 0.5rem;
+		margin-left: 0.5rem;
+		border: none;
+		outline: none;
+		border-bottom: 1px solid $pale-red;
+		color: $white;
+		background-color: $black;
+	}
+	button:hover {
+		background-color: $pale-red;
+		transition: all 0.3s ease;
+	}
+
+}
