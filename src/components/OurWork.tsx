@@ -5,7 +5,7 @@ import StoriesRow from './StoriesRow';
 
 const OurWork = () => {
 	return (
-		<section className='our-work'>
+		<section className='our-work' id='our-work-id'>
 			<div className='our-work-head'>
 				<h6>our work</h6>
 				<h1>Our success stories.</h1>

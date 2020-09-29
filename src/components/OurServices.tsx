@@ -5,7 +5,7 @@ import Card from '../components/Card';
 
 const OurServices = () => {
 	return (
-		<section className='our-services'>
+		<section className='our-services' id='our-services-id'>
 			<div className='our-services-head'>
 				<h6>our services</h6>
 				<h1>What we do best.</h1>

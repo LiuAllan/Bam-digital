@@ -5,7 +5,7 @@ import Card from '../components/CardNoButton';
 
 const OurApproach = () => {
 	return (
-		<section className='our-approach'>
+		<section className='our-approach' id='our-approach-id'>
 			<div className='our-approach-head'>
 				<h6>our approach</h6>
 				<h1>Your trusted digital partner.</h1>
