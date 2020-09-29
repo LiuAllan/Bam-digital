@@ -4,16 +4,15 @@
 .contact {
 	padding: 6rem 4rem 0;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	color: $white;
 
 	// divider
 	position: relative;
 	background: $black;
-	height: 50vh;
+	height: 100vh;
 	border-top-left-radius: 50% 7%;
 	border-top-right-radius: 50% 7%;
-
-
 }
 
 .contact-head {
@@ -25,3 +24,37 @@
 		color: $white;
 	}
 }
+
+.contact-info {
+	display: flex;
+	flex-direction: row;
+	margin-left: 25rem;
+	font-size: $footer-font-size;
+}
+
+.head-office {
+	margin-right: 4rem;
+
+	.head-text {
+		margin-bottom: 0.5rem;
+		font-weight: $footer-font-weight-header;
+	}
+}
+
+.phone-email {
+	.phone {
+		p {
+			span {
+				margin-left: 1rem;
+			}
+			.toronto {
+				margin-left: 2rem;
+			}
+		}
+	}
+
+	.email {
+		margin-top: 1.5rem;
+	}
+}
+
