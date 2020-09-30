@@ -72,9 +72,22 @@ html {
 .fadeHide {
 	opacity: 0;
 	transition: all 0.3s ease 0s;
+	pointer-events: none; // disables elements
 }
 
 .fadeShow {
 	opacity: 1;
 	transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 961px) {
+	.nav-container {
+		padding: 1em;
+	}
+}
+
+@media (max-width: 639px) {
+	.nav-items {
+		display: none;
+	}
 }

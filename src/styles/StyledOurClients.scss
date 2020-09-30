@@ -62,3 +62,17 @@
     opacity:1;
   }
 }
+
+@media (max-width: 961px) {
+  .our-clients {
+    padding: 1em;
+    height: 250px;
+  }
+
+  .our-clients-head {
+    h1 {
+      font-size: $font-size-h1-320;
+      margin-bottom: 0;
+    }
+  }
+}

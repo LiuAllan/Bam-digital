@@ -15,3 +15,27 @@
 		color: $black;
 	}
 }
+
+.outer-card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@media (max-width: 961px) {
+
+	.our-services {
+		padding: 1em;
+	}
+
+	.our-services-head {
+		h1 {
+			font-size: $font-size-h1-320;
+			margin-bottom: 0;
+		}
+	}
+	.outer-card-container {
+		flex-direction: column;
+	}
+
+}

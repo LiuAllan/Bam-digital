@@ -19,9 +19,9 @@
 	h1 {
 		@include heading1;
 
-		display: block;
+		/*display: block;*/
 		height: 100px;
-		width: 50%;
+		/*width: 50%;*/
 		margin-bottom: 0;
 	}
 }
@@ -43,5 +43,31 @@
 		padding-left: 4rem;
 		/*font-size: 0.8rem;*/
 		line-height: 1.5rem;
+	}
+}
+
+@media (max-width: 961px) {
+
+	.our-mission {
+		padding: 1em;
+	}
+
+	.our-mission-head {
+		h1 {
+			font-size: $font-size-h1-320;
+			margin-bottom: 0;
+		}
+	}
+
+	.our-mission-content {
+		flex-direction: column-reverse;
+		p {
+			padding: 0;
+		}
+
+		img {
+			width: 100%;
+			margin-top: 4em;
+		}
 	}
 }

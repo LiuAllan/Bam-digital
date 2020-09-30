@@ -19,3 +19,17 @@
 		@include heading1;
 	}
 }
+
+@media (max-width: 961px) {
+
+	.our-approach {
+		padding: 1rem;
+	}
+
+	.our-approach-head {
+		h1 {
+			font-size: $font-size-h1-320;
+			margin-bottom: 0;
+		}
+	}
+}

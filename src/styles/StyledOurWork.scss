@@ -3,15 +3,28 @@
 
 .our-work {
 	padding: 6rem 4rem 0;
+}
+
+.our-work-head {
+	h6 {
+		@include heading6;
+	}
+
+	h1 {
+		@include heading1;
+		color: $black;
+	}
+}
+
+@media (max-width: 961px) {
+	.our-work {
+		padding: 1em;
+	}
 
 	.our-work-head {
-		h6 {
-			@include heading6;
-		}
-
 		h1 {
-			@include heading1;
-			color: $black;
+			font-size: $font-size-h1-320;
+			margin-bottom: 0;
 		}
 	}
 }

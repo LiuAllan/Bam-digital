@@ -11,7 +11,7 @@ const OurApproach = () => {
 				<h1>Your trusted digital partner.</h1>
 			</div>
 
-			<div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+			<div className='outer-card-container'>
 				<Card 
 					numStroke={'01'} 
 					pitchHeading1={'Industry Experts'}

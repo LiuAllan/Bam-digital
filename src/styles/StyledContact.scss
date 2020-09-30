@@ -74,7 +74,7 @@
 	}
 
 	input {
-		width: 20rem;
+		max-width: 20rem;
 		padding: 0.5rem 0.5rem 0.5rem 0rem;
 		outline: none;
 		background-color: $black;
@@ -117,4 +117,44 @@
 		}
 		
 	}
+}
+
+
+@media (max-width: 961px) {
+  .contact {
+    padding: 1em;
+    padding-top: 5em;
+  }
+
+  .contact-head {
+    h1 {
+      font-size: $font-size-h1-320;
+      margin-bottom: 1em;
+    }
+  }
+	.contact-margin-left {
+		flex-direction: column;
+		justify-content: initial;
+	}
+	.contact-info {
+		flex-direction: column;
+	}
+	.email-list {
+		margin: 0;
+		h2 {
+			margin-top: 5em;
+		}
+	}
+	.social-terms {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		.socials-container {
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+	}
+
+
 }
